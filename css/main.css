@@ -1,9 +1,11 @@
+/*bgimgs*/
 .headerimg{
 	background-image: url("../img/large.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	max-width: 100%;
 	margin:0%;
+	height:443px;
 }
 .loquieroimg{
 	background-image: url("../img/loquieroimg.jpg");
@@ -12,13 +14,25 @@
 	max-width: 97%;
 	height:400px;
 }
+/*navbar transparente*/
+.navbar.navbar-default{
+	background-color: transparent;
+	border-style: none;
+}
+/*filtro a imagenes*/
+.filter{
+	background-color: rgba(76,76,76,0.5);
+	background-size:100%;
+	width:100%;
+}
+/*margin y padding*/
 .mg{
 	padding:4% 0% 4% 0%;
 }
 .pd-0{
 	padding:0% 0% 0% 0%;
 }
-
+/*textos*/
 .tx-white{
 	color:white;
 }
@@ -27,7 +41,30 @@
 }
 .bg-blue{
 	background:rgba(0, 0, 255, 0.4);
+	height:119px;
+	margin:0%;
 }
+/*modal*/
+input,textarea{
+	display:block;
+}
+.red{
+	color:red;
+}
+/*typos*/
 h3,h4,p,li{
 	font-family: 'Open Sans', sans-serif;
+}
+.movebutton{
+	margin-top:3%;
+	margin-left: 5%;
+}
+.separador{
+	position:absolute;
+	margin-left:47%;
+	margin-top:-2%;
+}
+footer{
+	background-color: #003169;
+	padding:2% 0% 2% 0%;
 }

@@ -15,54 +15,95 @@
 <body>
 	<header>
 		<div class="container-fluid pd-0">
-			<div class="row headerimg"> <!--Aqui va la imagen-->
-				<div class="col-lg-12">
-				</div> 
-				<div class="row"> <!--Inicia menú-->
+			<div class="row headerimg filter"> <!--Aqui va la imagen-->
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="col-lg-4">
-						<p>Testing 360</p>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex6-collapse">
+								<span class="sr-only">Menu</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+							<span class="tx-white">User Testing 360 </span>
+							</a>
+						</div>
 					</div>
-					<div class="col-lg-8">
-						<nav>
-							<ul>
+					<div class="col-xs-1 col-md-7 col-lg-8">
+						<div class="collapse navbar-collapse navbar-ex6-collapse navbar-right">
+							<ul class="nav navbar-nav">
 								<li>
-									<a href="">
-										<span>Qué me ofrece?</span>
+									<a href="#">
+										<span class="tx-white">Qué me ofrece?</span>
 									</a>
 								</li>
 								<li>
-									<a href="">
-										<span>Qué me ofrece?</span>
+									<a href="#">
+										<span class="tx-white">Cómo funciona?</span>
 									</a>
 								</li>
 								<li>
-									<a href="">
-										<span>Qué me ofrece?</span>
+									<a href="#">
+										<span class="tx-white">Por qué usarlo?</span>
 									</a>
 								</li>
 								<li>
-									<a href="">
-										<span>Qué me ofrece?</span>
+									<a href="#">
+										<span class="tx-white">Contáctanos</span>
 									</a>
 								</li>
 							</ul>
-						</nav>
+						</div>
 					</div>
-				</div>
-				<div class="row"> 
+				</nav>
+				<div class="row mg"> 
 					<div class="col-lg-12 text-center mg tx-white"> <!--Texto después de menú-->
 					<h1>Obtén vídeos de personas reales <br> utilizando tu sitio web, en 1 hora</h1>
 					</div>
 				</div>	
 				<div class="row bg-blue"> <!--Modal-->
-					<div class="col-lg-6 text-center mg tx-white">
+					<div class="col-lg-6 text-right tx-white movetx">
 						<h3>PRUEBA GRATUITA</h3>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
 					<div class="col-lg-6">
-						<button>
-							<span> Pruébalo gratis</span><!--Insertar modal aquí-->
-						</button>
+						<a href="#ventana1" class="btn btn-primary btn-lg movebutton" data-toggle="modal"><span>Pruébalo gratis</span></a>
+						<div class="modal fade" id="ventana1">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h2 class="modal-title">Formulario User Testing 360 </h2>
+									</div>
+									<div class="modal-body">
+										<form>
+											<span>Nombre</span>
+											<span class="red">*</span>
+											<input type="text" name="nombre">
+											<span>E-mail</span>
+											<span class="red">*</span>
+											<input type="text" name="E-mail">
+											<span>Dejáme tu URL</span>
+											<span class="red">*</span>
+											<textarea rows="4" cols="50" required="autofocus"></textarea>
+											<br>
+											<input class="btn btn-primary bt-xs" type="submit" name="enviar">
+										</form>
+									</div>
+									<div class="modal-footer">
+										<div class="row">
+											<div class="col-lg-6">
+												Powered by Squad 6
+											</div>
+											<div class="col-lg-6">
+												Report abuse!
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -70,35 +111,36 @@
 	</header>
 	<section>
 		<div class="container">
-			<div class="row">
+			<div class="row mg">
 				<div class="col-lg-12 text-center">
-					<h3 class="tx-blue">Nuestros servicios</h2>
+					<h3 class="tx-blue">Nuestros servicios</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-4 text-center mg">
 					<img src="" alt="">
-					<h3 class="tx-blue">Pruebálo gratis</h3>
+					<h4 class="tx-blue">Pruebálo gratis</h4>
 					<p>Obtén un primer video screencast de un usuario navegando tu página</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 text-center mg">
 					<img src="" alt="">
-					<h3 class="tx-blue">Compra el servicio completo</h3>
+					<h4 class="tx-blue">Compra el servicio completo</h4>
 					<p>Si te gustó compra nuestro servicio completo que incluye 7 vídeos y feedback</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 text-center mg">
 					<img src="" alt="">
-					<h3 class="tx-blue">Obtén resultados en 1 día</h3>
+					<h4 class="tx-blue">Obtén resultados en 1 día</h4>
 					<p>Te haremos llegar los vídeos y el feedback completo el mismo día</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<img src="img/separador.png" class="separador">
 	<hr> <!--aquí va el icono en bgimg-->
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 text-justify">
+				<div class="col-lg-6 text-justify mg">
 					<h3 class="tx-blue">Ejemplo de</h3>
 					<img src="" class="pull-left">
 					<p>En este vídeo te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia del usuario</p>
@@ -106,7 +148,7 @@
 					<p>El objetivo de User Testing es identificar situaciones confusas de los usuario en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria</p>
 					<img src="img/flecha.png" alt="" class="center-block">
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 mg">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
@@ -114,12 +156,17 @@
 	</section>
 	<section>
 		<div class="container"> <!--Lo quiero lo tengo-->
-			<div class="row"> 
+			<div class="row mg"> 
 				<div class="col-lg-6 loquieroimg img-responsive"> <!--meter bgimage aqui y los iconitos abajo-->
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
+					<div>
+						<i class="icon-envelope"></i>
+					</div>
+					<div>
+						<i class="icon-tools-2"></i>
+					</div>
+					<div>
+						<i class=".icon-magnifying-glass"></i>
+					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="row text-justify">
@@ -168,38 +215,67 @@
 		</div>
 	</section>
 	<section>
-		<div class="container-fluid">
-			<div class="col-lg-6">
+		<div class="container-fluid bg-blue">
+			<div class="col-lg-6 text-right tx-white">
 				<h3>PRUEBA GRATUITA</h3>
 				<p>Obtén un vídeo de 5 minutos gratis</p>
 			</div>	
-			<div class="col-lg-6">
-				<button>
-					<span> Pruébalo gratis</span> <!--Insertar modal aquí-->
-				</button>
-			</div>
+			<a href="#ventana1" class="btn btn-primary btn-lg movebutton" data-toggle="modal"><span>Pruébalo gratis</span></a>
+			<div class="modal fade" id="ventana1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h2 class="modal-title">Formulario User Testing 360 </h2>
+						</div>
+						<div class="modal-body">
+							<form>
+								<span>Nombre</span>
+								<span class="red">*</span>
+								<input type="text" name="nombre">
+								<span>E-mail</span>
+								<span class="red">*</span>
+								<input type="text" name="E-mail">
+								<span>Dejáme tu URL</span>
+								<span class="red">*</span>
+								<textarea rows="4" cols="50" required="autofocus"></textarea>
+								<br>
+								<input class="btn btn-primary bt-xs" type="submit" name="enviar">
+							</form>
+						</div>
+						<div class="modal-footer">
+							<div class="row">
+								<div class="col-lg-6">
+									Powered by Squad 6
+								</div>
+								<div class="col-lg-6">
+									Report abuse!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
 		</div>
 	</section>
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-6">
-					<p>Escríbenos a:</p>
+				<div class="col-lg-6 tx-white">
+					<p><b>Escríbenos a:</b></p>
 					<p>experienciausuario.lab@gmailcom</p>
-					<p>tel:356-354-44</p>
+					<p><b>tel:356-354-44</b></p>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 tx-white">
 					<!-- puedo ocupar iconos de redes sociales o flaticon -->
-					<p>Copyright - User Testing 360°</p>
+					<p class="text-right"><b>Copyright - User Testing 360°</b></p>
 				</div>
 			</div>
 		</div>
 	</footer>
 <!--Escribe aqui tu codigo-->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/jquery.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/menu-scroll.js"></script>
     <script src="js/nav-scroll.js"></script>
 </body>
