@@ -1,0 +1,33 @@
+.headerimg{
+	background-image: url("../img/large.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 100%;
+	margin:0%;
+}
+.loquieroimg{
+	background-image: url("../img/loquieroimg.jpg");
+	background-repeat: no-repeat;
+	background-size: 97%;
+	max-width: 97%;
+	height:400px;
+}
+.mg{
+	padding:4% 0% 4% 0%;
+}
+.pd-0{
+	padding:0% 0% 0% 0%;
+}
+
+.tx-white{
+	color:white;
+}
+.tx-blue{
+	color:blue;
+}
+.bg-blue{
+	background:rgba(0, 0, 255, 0.4);
+}
+h3,h4,p,li{
+	font-family: 'Open Sans', sans-serif;
+}
