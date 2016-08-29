@@ -15,7 +15,7 @@
 <body>
 	<header> <!--menú-->
 		<div class="container-fluid pd-0">
-			<div class="row headerimg filter"> <!--Aqui va la imagen de header que lleva filtro-->
+			<div class="row headerimg"> <!--Aqui va la imagen de header que lleva filtro-->
 				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="col-xs-11 col-md-5 col-lg-4">
 						<div class="navbar-header">
@@ -32,14 +32,12 @@
 					</div>
 					<div class="col-xs-1 col-md-7 col-lg-8">
 						<div class="collapse navbar-collapse navbar-ex6-collapse navbar-right">
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav tx-white">
 								<li>
-									<a href="#">
-										<span class="tx-white">Qué me ofrece?</span>
-									</a>
+									<a href="#Servicios"> Qué me ofrece </a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#"> 
 										<span class="tx-white">Cómo funciona?</span>
 									</a>
 								</li>
@@ -49,7 +47,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#"> 
 										<span class="tx-white">Contáctanos</span>
 									</a>
 								</li>
@@ -59,7 +57,7 @@
 				</nav>
 				<div class="row mg"> 
 					<div class="col-xs-12 col-md-12 col-lg-12 text-center mg tx-white"> <!--Texto después de menú-->
-					<h1>Obtén vídeos de personas reales <br> utilizando tu sitio web, en 1 hora</h1>
+					<h1 class="h1-size">Obtén vídeos de personas reales <br> utilizando tu sitio web, en 1 hora</h1>
 					</div>
 				</div>	
 				<div class="row bg-blue bg-blue-responsive"> <!--Modal-->
@@ -112,29 +110,29 @@
 		</div>
 	</header>
 	<section>
-		<div class="container"> <!--servicios con iconos en circulo + info-->
-			<div class="row mg">
+		<div class="container mg"> <!--servicios con iconos en circulo + info-->
+			<div class="row">
 				<div class="col-xs-12 col-md-12 col-lg-12 text-center">
-					<h3 class="tx-blue">Nuestros servicios</h3>
+					<h3 class="tx-blue mg-tx" id="Servicios"><b>Nuestros servicios</b></h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-4 col-lg-4 text-center mg">
-					<div class="circle-icon center-block"> 
+				<div class="col-xs-12 col-md-4 col-lg-4 text-center">
+					<div class="circle-icon center-block animated infinite pulse"> 
 						<img src="icono/film.png" class="icon-absolute"> <!-- aqui use el transform translate-->
 					</div>
-					<h4 class="tx-blue">Pruebálo gratis</h4>
+					<h4 class="tx-blue mg-tx">Pruebálo gratis</h4>
 					<p>Obtén un primer video screencast <br>de un usuario navegando tu página</p>
 				</div>
-				<div class="col-xs-12 col-md-4 col-lg-4 text-center mg">
-					<div class="circle-icon center-block">
+				<div class="col-xs-12 col-md-4 col-lg-4 text-center">
+					<div class="circle-icon center-block animated infinite pulse">
 						<img src="icono/reloj.png" class="icon-absolute"> <!-- aqui use el transform translate-->
 					</div>
 					<h4 class="tx-blue">Compra el servicio completo</h4>
 					<p>Si te gustó compra nuestro <br> servicio completo que incluye 7 <br>vídeos y feedback</p>
 				</div>
-				<div class="col-xs-12 col-md-4 col-lg-4 text-center mg">
-					<div class="circle-icon center-block">
+				<div class="col-xs-12 col-md-4 col-lg-4 text-center">
+					<div class="circle-icon center-block animated infinite pulse">
 						<img src="icono/papel.png" class="icon-absolute"> <!-- aqui use el transform translate-->
 					</div>
 					<h4 class="tx-blue">Obtén resultados en 1 día</h4>
@@ -149,7 +147,7 @@
 		<div class="container mg-responsive"> <!-- primer bloque con video-->
 			<div class="row">
 				<div class="col-xs-12 col-md-6 col-lg-6 mg">
-					<h3 class="tx-blue">Ejemplo de
+					<h3 class="tx-blue"> <b> Ejemplo de </b>
 						<img src="img/logo-2.jpg" class="img-responsive logo-2">
 					</h3>
 					<p>En este vídeo te damos un ejemplo de un integrante de nuestro panel <br> evaluando la experiencia del usuario.</p>
@@ -177,13 +175,13 @@
 						<i class="icon-magnifying-glass icon-absolute"></i>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-6 col-lg-6 mg-responsive">
+				<div class="col-xs-12 col-md-6 col-lg-6 mg-responsive tx-move">
 					<div class="row">
-						<h3>Lo quiero ¿Qué hago?</h3>
+						<h3><b>Lo quiero ¿Qué hago?</b></h3>
 					</div>
 					<div class="row">
 						<h4 class="tx-blue">Paso 1: enviarnos tu link</h4>
-						<p>Al darle click al botón de prueba coloca tu nombre y tu correo electrónico <br> a donde enviaremos el video y el informe con el feedback.</p>
+						<p>Al darle click al botón de prueba coloca tu nombre y tu <br> correo electrónico a donde enviaremos el video y el <br> informe con el feedback.</p>
 					</div>
 					<div class="row">
 						<h4 class="tx-blue">Paso 2: describe a tu público objetivo</h4>
@@ -197,19 +195,19 @@
 					</div>
 					<div class="row">
 						<h4 class="tx-blue">Paso 3: recibe un video y el feedback completo</h4>
-						<p>Recibe un combo de 7 meses y un informe detallado con las captaciones de <br> usabilidad de tu producto.</p>
+						<p>Recibe un combo de 7 meses y un informe detallado con las <br> captaciones de usabilidad de tu producto.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<hr class="visible-lg"> <!--aquí va el icono en bgimg-->
+	<hr class="visible-lg hrmove"> <!--aquí va el icono en bgimg-->
 	<img src="img/separador.png" class="separador2 img-responsive visible-lg">
 	<section>
-		<div class="container mg-responsive visible-lg">
+		<div class="container mg-responsive visible-lg mg">
 			<div class="row"> <!-- último bloque con texto & img-->
 				<div class="col-xs-12 col-md-6 col-lg-6">
-					<h3 class="tx-blue">Por qué usar
+					<h3 class="tx-blue"> <b>Por qué usar </b>
 						<img src="img/logo-2.jpg" class="img-responsive logo-3">
 					</h3>
 					<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <b class="tx-blue"> User Testing 360 </b> puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satsifaga todas las necesidades de tus usuarios. Con <b class="tx-blue"> User Testing 360 </b> podrás entender:</p>
@@ -280,9 +278,14 @@
 					<p>experienciausuario.lab@gmailcom</p>
 					<p><b>tel:356-354-44</b></p>
 				</div>
-				<div class="col-xs-6 col-md-6 col-lg-6 tx-white">
-					<!-- puedo ocupar iconos de redes sociales o flaticon -->
-					<p class="text-right"><b>Copyright - User Testing 360°</b></p>
+				<div class="col-xs-6 col-md-6 col-lg-6 tx-white text-right">
+					<a href="#">
+						<span class="icon-facebook"></span>
+					</a>
+					<a href="">
+						<span class="icon-twitter"></span>
+					</a>
+					<p><b>Copyright - User Testing 360°</b></p>
 				</div>
 			</div>
 		</div>

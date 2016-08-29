@@ -1,3 +1,6 @@
+body{
+	padding-right: 0%;
+}
 /*bgimgs*/
 .headerimg{
 	background-image: url("../img/large.jpg");
@@ -5,15 +8,15 @@
 	background-size: 100%;
 	max-width: 100%;
 	margin:0%;
-	height:443px;
+	height:510px;
 }
 .loquieroimg{
 	background-image: url("../img/loquieroimg.jpg");
 	background-repeat: no-repeat;
 	background-size: 97%;
 	max-width: 97%;
-	height:420px;
-	margin-top:2%;
+	height:450px;
+	margin-top:4%;
 }
 /*navbar transparente*/
 .navbar.navbar-default{
@@ -22,25 +25,26 @@
 	border-style: none;
 	color:black;
 }
-/*filtro a imagenes*/
-.filter{
-	background-color: rgba(76,76,76,0.9);
-	background-size:100%;
-	width:100%;
-}
 /*margin y padding*/
 .mg{
 	padding:4% 0% 4% 0%;
 }
+.mg-tx{
+	padding:0% 0% 3% 0%;
+}
 .pd-0{
 	padding:0% 0% 0% 0%;
+}
+.tx-move{
+	padding-left:8%;
+	padding-top:2%;
 }
 /*textos*/
 .tx-white{
 	color:white;
 }
 .tx-blue{
-	color:blue;
+	color:#4D4DFF;
 }
 .bg-blue{
 	background:rgba(0, 0, 255, 0.4);
@@ -88,8 +92,7 @@ footer{
 .logo-2{
 	width:30%;
 	position: absolute;
-	right:47%;
-	top:17%;
+	transform:translate(75%,-85%);
 }
 .logo-3{
 	width:30%;
@@ -104,6 +107,7 @@ footer{
 	height: 100px;
 	width:100px;
 	position:relative;
+	padding-bottom: 3%;
 }
 /*icono en el centro, importante el transform:translate*/
 .icon-absolute{
@@ -116,7 +120,7 @@ footer{
 .icon-blue{
 	border-radius: 50%;
 	position:relative;
-	background-color: #0080ff;
+	background-color: #6666ff;
 	height:50px;
 	width: 50px;
 	left:95%;
@@ -124,27 +128,3 @@ footer{
 	margin-top:10%;
 }
 
-
-
-/*Media queries */
-@media screen and (max-width: 768px) {
-	.navbar{
-	background-color: white;
-	opacity:5;
-		}
-	.movebutton{
-	margin-top:-13%;
-	margin-left: 10%;
-		}
-	.mg-responsive{
-		margin-left:10%;
-	}
-	.separador{
-	position:absolute;
-	margin-left:47%;
-	margin-top:-5%;
-	}
-	.bg-blue-responsive{
-		margin-top:16%;
-	}
-}

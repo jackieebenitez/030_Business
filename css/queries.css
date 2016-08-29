@@ -17,6 +17,19 @@
 	margin-top:-5%;
 	}
 	.bg-blue-responsive{
-	margin-top:16%;
+	margin-top:4%;
+	}
+	.logo-2{
+	width:30%;
+	position: absolute;
+	transform:translate(90%,-95%);
+	}
+	.h1-size{
+	margin-top:12%;
+	font-size: 170%;
+	font-color:red;
+	}
+	.headerimg{
+	height:0%;
 	}
 }
