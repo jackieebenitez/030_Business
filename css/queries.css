@@ -1,0 +1,22 @@
+/*Media queries */
+@media screen and (max-width: 768px) {
+	.navbar{
+	background-color: white;
+	opacity:5;
+		}
+	.movebutton{
+	margin-top:-13%;
+	margin-left:7%;
+		}
+	.mg-responsive{
+		margin-left:10%;
+	}
+	.separador{
+	position:absolute;
+	margin-left:44%;
+	margin-top:-5%;
+	}
+	.bg-blue-responsive{
+	margin-top:16%;
+	}
+}

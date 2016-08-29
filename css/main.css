@@ -12,16 +12,19 @@
 	background-repeat: no-repeat;
 	background-size: 97%;
 	max-width: 97%;
-	height:400px;
+	height:420px;
+	margin-top:2%;
 }
 /*navbar transparente*/
 .navbar.navbar-default{
-	background-color: transparent;
+	background-color: blue;
+	opacity:.4;
 	border-style: none;
+	color:black;
 }
 /*filtro a imagenes*/
 .filter{
-	background-color: rgba(76,76,76,0.5);
+	background-color: rgba(76,76,76,0.9);
 	background-size:100%;
 	width:100%;
 }
@@ -55,16 +58,93 @@ input,textarea{
 h3,h4,p,li{
 	font-family: 'Open Sans', sans-serif;
 }
+/*posicion de los botones*/
 .movebutton{
 	margin-top:3%;
 	margin-left: 5%;
 }
+/*icono en hr que debe ir en medio*/
 .separador{
 	position:absolute;
 	margin-left:47%;
 	margin-top:-2%;
 }
+.separador2{
+	position:absolute;
+	margin-left:45%;
+	margin-top:-6%;
+}
+/*estilo para el footer*/
 footer{
 	background-color: #003169;
 	padding:2% 0% 2% 0%;
+}
+/*flecha con animate*/
+.flecha{
+	margin-left:35%;
+	margin-top:7%;
+}
+/*estilo para los logos de user testing 360*/
+.logo-2{
+	width:30%;
+	position: absolute;
+	right:47%;
+	top:17%;
+}
+.logo-3{
+	width:30%;
+	position: absolute;
+	right:43%;
+	top:6%;
+}
+/*iconos hechos circulo, es importante el relative (no se mueven)*/
+.circle-icon{
+	border-radius: 50%;
+	box-shadow: -1px 3px 3px 2px #f4ebff;
+	height: 100px;
+	width:100px;
+	position:relative;
+}
+/*icono en el centro, importante el transform:translate*/
+.icon-absolute{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+/*iconos dentro de circulos azul aqui use icomoon*/
+.icon-blue{
+	border-radius: 50%;
+	position:relative;
+	background-color: #0080ff;
+	height:50px;
+	width: 50px;
+	left:95%;
+	font-size:150%;
+	margin-top:10%;
+}
+
+
+
+/*Media queries */
+@media screen and (max-width: 768px) {
+	.navbar{
+	background-color: white;
+	opacity:5;
+		}
+	.movebutton{
+	margin-top:-13%;
+	margin-left: 10%;
+		}
+	.mg-responsive{
+		margin-left:10%;
+	}
+	.separador{
+	position:absolute;
+	margin-left:47%;
+	margin-top:-5%;
+	}
+	.bg-blue-responsive{
+		margin-top:16%;
+	}
 }
